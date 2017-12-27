@@ -22,7 +22,7 @@ The first step to use R is to set the working directory. Your working directory 
 in which you are currently working. When you ask R to open a file, it will look in the working directory for this file, and when you tell R to save a data file or figure, it will save it in the working directory.
 
 ```{r}
-setwd("D:/Dropbox/Teaching Materials/CUHK Courses/Digital Research/Slides/Labs/R Review") # set a working directory
+# setwd("/R Review") # set a working directory
 ```
 R can do many statistical and data analyses. They are organized in so-called packages or libraries.
 With the standard installation, most common packages are installed.
@@ -52,7 +52,7 @@ library(foreign)
 ```
 
 ## 1.2. Basic syntax
-Let's do some basic calculations. 
+Do some basic calculations. 
 ```{r}
 1+2
 1-2
@@ -75,7 +75,7 @@ nv = height*weight
 nv # instead of print(nv)
 ```
 
-R has some generic functions we can use them directly. For example,calculating the sum and mean of a series of numbers.If you don't how to use a function, you can use the help function.
+R has some generic functions that we can use them directly. For example, calculating the sum and mean of a series of numbers.
 
 ```{r}
 sum(c(1,2,3))
@@ -111,17 +111,15 @@ missing
 ```
 
 ## 1.4. Data structures
-To learn any programming languages, a shortcut is to learn the core elements. Fortunately, most programming languages share very similar core elements. They are data structure, conditional expressions, loops, and functions. I will illustrate these one by one
+To learn any programming languages, a shortcut is to learn the core elements. Fortunately, most programming languages share very similar core elements. They are data structure, conditional expressions, loops, and functions. 
 
-Four types of data structure are commonly used in R: vector, matrix, data frame, and list. Here is a good illustration.
-
-The first is vector. Vector is a list of values. These values could be numeric, logic, or string.
+Four types of data structure are commonly used in R: vector, matrix, data frame, and list. The first is vector. Vector is a list of values. These values could be numeric, logic, or string.
 ```{r}
 # using c (c is a function) to generate a new vector
 v = c(1,7,9,10) 
 v
 ```
-The data type of vector values must be the same. If input numbers,characters,and missing value together, what will happen? 
+The data type of vector values must be the same. If numbers,characters,and missing value are assigned together, what will happen? 
 ```{r}
 v2 = c(1,7,NA,"hi")
 v2
@@ -133,13 +131,13 @@ names(v)
 names(v) = c("First","Second","Third","Fourth")
 names(v)
 ```
-We can apply mathematical calculations directly to vector.We can multiply a vector by a number, calculate the sqrt of each elements in the vector.
+We can apply mathematical calculations directly to vector. We can multiply a vector by a number, calculate the sqrt of each elements in the vector.
 
 ```{r}
 v*2
 sqrt(v)
 ```
-The second structure is matrix. Matrix is a collection of vectors, organized in rows and columns (nothing more than 2-dimensional vectors). Values in a matrix should be in the same data type. Each column or row is a vector. We use the matrix function to generate a matrix with 5 cols and 5 rows. Values are the integers from 1 to 25.
+The second structure is matrix. Matrix is a collection of vectors, organized in rows and columns. Values in a matrix should be in the same data type. Each column or row is a vector. We use the matrix function to generate a matrix with 5 cols and 5 rows. Values are integers from 1 to 25.
 
 ```{r}
 m = matrix(1:25,5,5) 
@@ -173,9 +171,9 @@ l[[3]]
 ```
 
 ## 1.5. Programming tools
-I will introduce 3 programming tools: if...else expression (which is one of the conditional expressions); the for and while loop expressions, and how to define your own functions.
+I will introduce 3 programming tools: if...else expression (which is one of the conditional expressions), for and while loop expressions, and user defined functions.
 
-Here is a task: input a number, if the value is larger than or equal to 100, print "High Value", if the value is less than 100 and larger than or equal to 50, print "Middle Value", if less than 50, print "Low Value".
+Task: input a number, if the value is larger than or equal to 100, print "High Value", if the value is less than 100 and larger than or equal to 50, print "Middle Value", if less than 50, print "Low Value".
 
 ```{r}
 x = 95 
@@ -223,7 +221,7 @@ area = function(height=5,width=20){
 area(11,10)
 ```
 # Section II: Data Management and Analysis
-Section II will focus on data management and analysis. Our data are usually stored in data frames in R. Sometimes, we need to transform the original data into different format in order to use existing R functions for data analysis. Data management is the procedure to prepare our data for formal analyses.
+Section II focuses on data management and analysis. Our data are usually stored in data frames in R. Sometimes, we need to transform the original data into different format in order to use existing R functions for data analysis. Data management is the procedure to prepare our data for formal analyses.
 
 ## 2.1. Data management
 I will use the attached sample data throughout the section. First, load the Rdata file.
@@ -231,7 +229,7 @@ I will use the attached sample data throughout the section. First, load the Rdat
 ```{r}
 load("sample.Rdata") # actually the data frame call tst3 (not sample)
 ```
-There are 6 variables and 1000 observations. This data was download from New York Times (I will tell you how to collect this data tomorrow). id: the id of the article, section_name: the section of the article, publication date, abstract, the lead paragraph, and word count. The type of the original word count is character. Now, we can create a new variable wc, which is the numeric type of word count.
+There are 6 variables and 1000 observations. This data were download from New York Times. id: the id of the article, section_name: the section of the article, publication date, abstract, the lead paragraph, and word count. The type of the original word count is character. Now, we need to create a new variable wc, which is the numeric type of word count.
 
 ```{r}
 tst3$wc = as.numeric(tst3$word_count)
@@ -249,19 +247,19 @@ We can rename the colnames or the variable names.
 ```{r}
 colnames(tst3)[2] = "section"
 ```
-Deal with missing value is also straightforward.
+Dealing with missing values is also straightforward.
 ```{r}
 tst3$wc[501] = NA # let the value to be missing
 #is.na(tst3$wc) # using is.na() to check the missing value
 tst3$wc[is.na(tst3$wc)]=0 # replace the missing value with 0
 tst3$wc[501]
 ```
-We should pay particular attention the NA value. Sometime, it causes big problems.
+We should pay particular attention NA valuea. Sometimes, it causes big problems.
 ```{r}
 sum(c(1,2,3,NA))
 sum(c(1,2,3,NA),na.rm=T)
 ```
-We use the square bracket to extract part of the data frame.
+We use the square brackets to extract part of the data frame.
 ```{r}
 # to select the first and third column
 newd_1 = tst3[,c(1,3)] 
@@ -276,7 +274,7 @@ newd_4$id = NULL
 # select cases (keep the long articles)
 newd_5 = tst3[which(tst3$long=="Yes"),]
 ```
-Aggregating is useful to summarize data. For example, calculate the average length by section. We want to get a new data frame with two variables. Col 1 is the section and col 2 is the average length of the articles. We use the aggregate() function.
+Aggregating is useful to summarize data, e.g., calculating the average length by section. We need a new data frame with two variables: Col 1 is the section name and col 2 is the average length of the articles. We use the aggregate() function.
 
 ```{r}
 agg_1 = aggregate(wc~section,tst3,FUN="mean")
@@ -285,15 +283,14 @@ agg_2 = aggregate(tst3$wc,by=list(tst3$section),FUN="mean") # agg_1 & agg_2 are 
 tst3$n=1
 agg_3 = aggregate(cbind(wc,n)~section,tst3,FUN="sum")
 ```
-In agg1, we have two variables: section and avg. Now, we want to merge agg1 and tst3 into 1 single data frame to see whether the word count of an article is larger than its section average. In the new data frame, append the avg variable into tst3. We can use merge() function.
+In agg1, we have two variables: section and avg. Now, we want to merge agg1 and tst3 into 1 single data frame to check whether the word count of an article is larger than its section average. In the new data frame, append the avg variable into tst3. We can use merge() function.
 
 ```{r}
 colnames(agg_1)[2] = "avg"
 tst3 = merge(tst3,agg_1,by="section")
 head(tst3)
 ```
-Reshaping is a very powerful tool for data management. The example I show here is similar to the excercise 2.
-Check the tst3 data frame. We find that some articles belong to more than 1 sections. Suppose we want to know how many times any two sections co-occurent. e.g., Arts and Books co-occurent 5 times.
+Reshaping is a very powerful tool for data management. Check the tst3 data frame. We find that some articles belong to more than 1 sections. Suppose we want to know how many times any two sections co-occurred. e.g., Arts and Books co-occurred 5 times.
 
 ```{r}
 # split the section variable by semicolon. "Arts;Books" will be split into two words: Arts and Books.
@@ -302,7 +299,7 @@ sections = sapply(tst3$section,function(x)strsplit(x,split="; "))
 A = sapply(sections,function(x)x[[1]])
 # we extract the second word if any (here we assume at most two)
 B = sapply(sections,function(x) ifelse(length(x)>1,x[[2]],NA))
-# combine A and B to a new data frame
+# combine A and B to form a new data frame
 longd = data.frame(A,B,stringsAsFactors=F)
 longd = longd[!is.na(longd$B),] # remove na
 head(longd)
@@ -318,11 +315,11 @@ head(rev)
 ```
 
 ## 2.2. Descriptive statistics
-Now, I am going to introduce some basic statistical analysis using R. You should notice that most statistical functions are only applicable for data frames. The most simple one is to use summary() to show the sumary statistics.
+Now, introduce some basic statistical analysis using R. You should notice that most statistical functions are only applicable for data frames. The most simple one is to use summary() to show sumary statistics.
 ```{r}
 summary(tst3)
 ```
-Another way is to use by and summary together to summary different groups. For example, summary statistics for the long and short articles separately.
+Another way is to use by and summary together to summarize different groups, e.g., summary statistics for the long and short articles separately.
 ```{r}
 by(tst3[,c("wc","avg")],tst3$long,summary)
 
