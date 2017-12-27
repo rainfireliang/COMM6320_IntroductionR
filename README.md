@@ -22,33 +22,33 @@ The first step to use R is to set the working directory. Your working directory 
 in which you are currently working. When you ask R to open a file, it will look in the working directory for this file, and when you tell R to save a data file or figure, it will save it in the working directory.
 
 ```{r}
-setwd("D:/Dropbox/Teaching Materials/CUHK Courses/Digital Research/Slides/Labs/R Review") # set a working directory
+setwd("...") # set a working directory
 ```
 R can do many statistical and data analyses. They are organized in so-called packages or libraries.
 With the standard installation, most common packages are installed.
 
 ```{r}
-#install.packages("tm")
-#library("tm") # load a library (remember library names)
-#help(package="tm")
+install.packages("tm")
+library("tm") # load a library (remember library names)
+help(package="tm")
 ```
 # Section I: Programming Basics
 ## 1.1. I/O
 How to import data from text, csv files into R?
 ```{r}
-#data = read.table(file="authorlist.txt",stringsAsFactors=F)
-#data = read.csv(file="authorlist.csv",stringsAsFactors=F)
-#write.table(data,file="authorlist.txt")
-#write.csv(data,file="authorlist.csv")
+data = read.table(file="authorlist.txt",stringsAsFactors=F)
+data = read.csv(file="authorlist.csv",stringsAsFactors=F)
+write.table(data,file="authorlist.txt")
+write.csv(data,file="authorlist.csv")
 ```
 It's also possible to import data from SPSS or STATA files, even you haven't installed the software. We use the foreign library.
 
 ```{r}
 library(foreign)
-#read.spss(file="authorlist.sav", to.data.frame = T)
-#read.dta(file="authorlist.dta")
-#save(data,file="")
-#load("sample.Rdata")
+read.spss(file="authorlist.sav", to.data.frame = T)
+read.dta(file="authorlist.dta")
+save(data,file="")
+load("sample.Rdata")
 ```
 
 ## 1.2. Basic syntax
