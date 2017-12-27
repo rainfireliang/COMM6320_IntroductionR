@@ -1,0 +1,666 @@
+OID,UID,Author Name,Location,College,Discipline,Discipline(department),Email
+1,1,"Wilson, N","Wellington, New Zealand",University of Otago,Health,Department of Public Health,nick.wilson@otago.ac.nz
+1,1,"Mason, K","Wellington, New Zealand",University of Otago,Health,Department of Public Health,
+1,1,"Tobias, M","Wellington, New Zealand",University of Otago,Health,Department of Public Health,
+1,1,"Peacey, M",New Zealand,University of Otago,Health,Department of Public Health,
+2,2,"Cook, Samantha",USA,"Google, Inc",Engineering,,
+2,2,"Conrad, Corrie",UK,"Google, Inc",Engineering,,cconrad@google.com
+2,2,"Fowlkes, Ashley L",USA,Influenza Division,Disease,Centers for Disease Control and Prevention,
+2,2,"Mohebbi, Matthew H",USA,"Google, Inc",Engineering,,
+3,3,"Dugas, Andrea Freyer",,,Medicine,Department of Emergency Medicine,
+3,3,"Hsieh, Yu-Hsiang",,,Medicine,Department of Emergency Medicine,
+3,3,"Levin, Scott R",,,Medicine,Department of Emergency Medicine,
+3,3,"Pines, Jesse M",USA,George Washington University,"Medicine,Health","Department of Emergency Medicine, Department of Health Policy",
+4,4,"Valdivia, A",Spain,Marina Salud,Medicine,Preventive Medicine Unit,tonyvald@hotmail.com
+4,4,"Lopez-Alcalde, J",Spain,Agencia Laín Entralgo,Health,Health Technology Asessment Unit,
+4,4,"Vicente, M",Spain,"Primary Health Care, Area 8",Health,,
+4,4,"Pichiule, M",Spain,Preventive Medicine Service,Medicine,Hospital Universitario de La Princesa,
+5,5,"Ortiz, Justin R",USA,University of Washington,Medicine,Division of Pulmonary and Critical Care Medicine,jrortiz@u.washington.edu
+5,5,"Zhou, Hong",USA,Centers for Disease Control and Prevention,Disease,,
+5,5,"Shay, David K",USA,Centers for Disease Control and Prevention,Disease,,
+5,5,"Neuzil, Kathleen M",USA,PATH,NULL,,
+6,6,"Carneiro, Herman Anthony",USA;UK,"Massachusetts General Hospital, Harvard Medical School?
+Imperial College London","Medicine,Disease","Division of Infectious Diseases?
+School of Medicine",
+6,6,"Mylonakis, Eleftherios",USA,"Massachusetts General Hospital, Harvard Medical School",Disease,Division of Infectious Diseases,
+7,7,"Dukic, Vanja",,University of Chicago,Health,Department of Health Studies,vdukic@health.bsd.uchicago.edu 
+7,7,"Lopes, Hedibert",,The University of Chicago,Business ,Booth School of Business ,
+7,7,"Polson, Nick",,The University of Chicago,Business ,Booth School of Business ,
+8,8,"Dugas, Andrea Freyer",USA,Johns Hopkins University,Medicine,Department of Emergency Medicine,
+8,8,"Jalalpour, Mehdi",USA,Johns Hopkins University,Engineering,Whiting School of Engineering,
+8,8,"Gel, Yulia",USA,"Johns Hopkins University;
+University of Waterloo",Engineering,Whiting School of Engineering,
+8,8,"Levin, Scott",USA;Canada,Johns Hopkins University,"Medicine,Engineering","Department of Emergency Medicine;
+Whiting School of Engineering",
+9,9,"Kelly, H",Australia,Victorian Infectious Diseases Reference Laboratory,Epidemiology,Epidemiology Unit,
+9,9,"Grant, K",Australia,Victorian Infectious Diseases Reference Laboratory,Epidemiology,Epidemiology Unit,
+10,10,"Pervaiz, Fahad",Pakistan,Lahore University of Management Sciences,Computer Science,"School of Science and Engineering, Computer Science Department",fahadp@lums.edu.ph
+10,10,"Pervaiz, Mansoor",Pakistan,Lahore University of Management Sciences,Computer Science,"School of Science and Engineering, Computer Science Department",fahadp@lums.edu.ph
+10,10,"Rehman, Nabeel Abdur",Pakistan,Lahore University of Management Sciences,Computer Science,"School of Science and Engineering, Computer Science Department",fahadp@lums.edu.ph
+10,10,"Saif, Umar",Pakistan,Lahore University of Management Sciences,Computer Science,"School of Science and Engineering, Computer Science Department",fahadp@lums.edu.ph
+11,11,"Malik, Mohammad Tufail",Canada,University of Manitoba,Math,Department of Mathematics,
+11,11,"Gumel, Abba",Canada,University of Manitoba,Math,Department of Mathematics,
+11,11,"Thompson, Laura H",Canada,University of Manitoba,Health,Department of Community Health Sciences,
+11,11,"Strome, Trevor",Canada,Winnipeg Regional Health Authority,Health,,
+12,12,"Dukic, Vanja",,University of Colorado at Boulder,Math,Applied Mathematics,Vanja.Dukic@colorado.edu
+12,12,"Lopes, Hedibert F",,Unifersity of Chicago Booth School of Business,Business ,,
+12,12,"Polson, Nicholas G",,Unifersity of Chicago Booth School of Business,Business ,,
+13,13,"Zhou, H",USA,Centers for Disease Control and Prevention,Disease,,
+13,13,"Shay, DK",USA,Centers for Disease Control and Prevention,Disease,,
+13,13,"Neuzil, KM",USA,PATH,NULL,,
+13,13,Christopher H. Goss,USA,University of Washington,Medicine,Medical Center,
+14,14,"Brownstein, John S",USA,"Children's Hospital Boston;
+Harvard Medical School","Medicine,Informatics",Children's Hospital Informatics Program,
+14,14,"Freifeld, Clark C",,"the Children's Hospital Informatics Program in Boston;
+MIT Media Laboratory in Cambridge","Computer Science,Medicine","research software developer;
+ the New Media Medicine Group",
+14,14,"Madoff, Lawrence C",UK, the University of Massachusetts Medical School,Medicine,,
+15,15,"Wilson, Kumanan",Canada,University of Ottawa,Medicine,"Ottawa Health Research Institute ,the Department of Medicine",
+15,15,"Brownstein, John S",USA,Harvard Medical School,Medicine,Children’s Hospital Boston; and the Department of Pediatrics ,
+16,16,"Paul, Michael J",USA,Johns Hopkins University,Language,"Human Language Technology Center of Excellence,Center for Language and Speech Processing
+",
+16,16,"Dredze, Mark",USA,Johns Hopkins University,Language,"Human Language Technology Center of Excellence,Center for Language and Speech Processing
+",
+17,17,"Chao, Dennis L",USA,Fred Hutchinson Cancer Research Center and the University of WashingtonSeattl,"Statistics,Disease","Center for Statistics and Quantitative Infectious Diseases, Vaccine and Infectious Diseases Division",
+17,17,"Halloran, M Elizabeth",USA,"Fred Hutchinson Cancer Research Center and the University of WashingtonSeattl;
+the University of WashingtonSeattl","Statistics,Disease","Center for Statistics and Quantitative Infectious Diseases, Vaccine and Infectious Diseases Division;
+Department of Biostatistics, School of Public Health",
+17,17,"Longini, Ira M",USA,"Fred Hutchinson Cancer Research Center and the University of WashingtonSeattl;
+the University of WashingtonSeattl","Statistics,Disease","Center for Statistics and Quantitative Infectious Diseases, Vaccine and Infectious Diseases Division;
+Department of Biostatistics, School of Public Health",
+18,18,"Patwardhan, Avinash",USA,"Walgreen Co., Deerfield",Health,Health Outcomes Research,Avinash.Patwardhan@Walgreens.com
+18,18,"Bilkovski, Robert",USA,"Walgreen Co., Deerfield",Medicine,Medical Director H&W,
+19,19,"Brownstein, John S",USA,"Children's Hospital Boston;
+Harvard Medical School;",Medicine,pediatrics ,
+19,19,"Freifeld, Clark C","USA;UK
+","Children's Hospital Informatics Program in Boston;
+ New Media Medicine Group of the MIT Media Laboratory in Cambridge, Cambridge",Computer science,research software developer,
+19,19,"Madoff, Lawrence C",UK,the University of Massachusetts Medical School,Medicine,medicine,
+20,20,"Collier, Nigel",Japan,2-1-2 Hitotsubashi,Informatics,"National Institute of Informatics;
+Japan Science and Technology Agency",
+20,20,"Son, Nguyen Truong",Vietnam,Vietnam National University at HCMC,NULL,,
+20,20,"Ngoc, Mai Nguyen Thi",Vietnam,Vietnam National University at HCMC,NULL,,
+21,21,"Doornik, Jurgen A",UK,University of Oxford,NULL,,
+22,22,"Ritterman, Joshua",,University of Edinburgh,Informatics,School of Informatics,j.ritterman@sms.ed.ac.uk
+22,22,"Osborne, Miles",,University of Edinburgh,Informatics,School of Informatics,miles@inf.ed.ac.uk
+22,22,"Klein, Ewan",,University of Edinburgh,Informatics,School of Informatics,ewan@inf.ed.ac.uk
+23,23,"Chen, Lingji",USA,Scientific Systems Company Inc.,Engineering,,lingji.chen@ssci.com
+23,23,"Achrekar, Harshavardhan",USA,University of Massachusetts Lowell,Computer Science,Department of Computer Science,
+23,23,"Liu, Benyuan",USA,University of Massachusetts Lowell,Computer Science,Department of Computer Science,
+23,23,"Lazarus, Ross",USA,Harvard Medical School,Medicine,Department of Population Medicine,ross.lazarus@channing.harvard.edu
+24,24,"Osterholm, Michael T",USA, the University of Minnesota,Disease;Agriculture,"Center for Infectious Disease Research and Policy;
+public health
+the National Center for Food Protection and Defense",
+25,25,"Baker, M",New Zealand,University of Otago,Health,Public Health,michael.baker@otago.ac.nz
+25,25,"Kelly, H",Australia,Victoria Infectious Diseases Reference Laboratory,Disease,,
+25,25,"Wilson, N",New Zealand,University of Otago,Health,Public Health,
+26,26,"Li, Hui",,the University of Mississippi Medical Center,Engineering,GIS analyst,
+26,26,"Faruque, Fazlay",,the University of Mississippi Medical Center,Engineering,GIS program,ffaruque@son.umsmed.edu. 
+26,26,"Williams, Worth",,the University of Mississippi Medical Center,Engineering,Department of GIS,
+26,26,"Finley, Richard",,the University of Mississippi Medical Center,Medicine,medicine and emergency medicine,
+27,27,"Chan, Emily H",USA,"Harvard-Massachusetts Institute of Technology Division of Health Sciences and Technology;
+Children's Hospital Boston","Informatics,Medicine","Children's Hospital Informatics Program;
+Division of Emergency Medicine",
+27,27,"Sahai, Vikram",USA,"Google Inc., Mountain View",Engineering,,
+27,27,"Conrad, Corrie",USA,"Google Inc., Mountain View",Engineering,,
+27,27,"Brownstein, John S",USA,"Harvard-Massachusetts Institute of Technology Division of Health Sciences and Technology;
+Children's Hospital Boston;
+Harvard Medical School","Informatics,Medicine","Children's Hospital Informatics Program;
+Division of Emergency Medicine;
+Department of Pediatrics",
+28,28,"de Quincey, Ed",UK,City University Northampton Square,Health,City eHealth Research Centre,ed.de.quincey@city.ac.uk
+28,28,"Kostkova, Patty",UK,City University Northampton Square,Health,City eHealth Research Centre,ed.de.quincey@city.ac.uk
+29,29,"Kang, Min",China,Center for Disease Control and Prevention of Guangdong Province,Disease,,kangmin@yeah.net
+29,29,"Zhong, Haojie",China,Center for Disease Control and Prevention of Guangdong Province,Disease,,
+29,29,"He, Jianfeng",China,Center for Disease Control and Prevention of Guangdong Province,Disease,,
+29,29,"Rutherford, Shannon",Australia,Griffith University,"Environment,Health","Centre for Environment and Population Health, School of Environment",
+30,30,"Lamb, Alex",USA,Johns Hopkins University,"Language,Computer Science","Human Language Technology Center of Excellence
+Department of Computer Science",
+30,30,"Paul, Michael J",USA,Johns Hopkins University,"Language,Computer Science","Human Language Technology Center of Excellence
+Department of Computer Science",
+30,30,"Dredze, Mark",USA,Johns Hopkins University,"Language,Computer Science","Human Language Technology Center of Excellence
+Department of Computer Science",
+31,31,"Rosenkötter, Nicole",Netherlands,Maastricht University,"Health,Medicine","Department of International Health, CAPHRI School for Public Health and Primary Care, Faculty for Health, Medicine and Life Science",
+31,31,"Ziemann, Alexandra",Netherlands,Maastricht University,"Health,Medicine","Department of International Health, CAPHRI School for Public Health and Primary Care, Faculty for Health, Medicine and Life Science",
+31,31,"Riesgo, Luis Garcia-Castrillo",Spain,University of Cantabria,Medicine,Department of Medical Sciences and Surgery,
+31,31,"Gillet, Jean Bernard",Belgium,University Hospital Leuven,Medicine,Department of Emergency Medicine,
+32,32,"Kamel Boulos, Maged N",UK,University of Plymouth,Health,Faculty of Health,
+32,32,"Sanfilippo, Antonio P",USA,Pacific Northwest National Laboratory,Social Science,Techno-Social Predictive Analytics Initiative,
+32,32,"Corley, Courtney D",USA,Pacific Northwest National Laboratory,Social Science,Techno-Social Predictive Analytics Initiative,
+32,32,"Wheeler, Steve",UK,University of Plymouth,Education,Faculty of Education,
+33,33,"Lopes, Luis F",,University of Lisbon,Informatics,LaSIGE(Large Scale Informatics Systems Laboratory),epiwork@di.fc.ul.pt
+33,33,"Zamite, João",,University of Lisbon,Informatics,LaSIGE(Large Scale Informatics Systems Laboratory),
+33,33,"Tavares, Bruno",,University of Lisbon,Informatics,LaSIGE(Large Scale Informatics Systems Laboratory),
+33,33,"Couto, Francisco",,University of Lisbon,Informatics,LaSIGE(Large Scale Informatics Systems Laboratory),
+34,34,"Sadilek, Adam",USA,University of Rochester,Computer Science,Department of Computer Science,sadilek@cs.rochester.edu 
+34,34,"Kautz, Henry A",USA,University of Rochester,Computer Science,Department of Computer Science,kautz@cs.rochester.edu
+34,34,"Silenzio, Vincent",USA,University of Rochester,Medicine,School of Medicine and Dentistry,v.m.silenzio@rochester.ed
+35,35,"Breyer, Benjamin N",USA,University of California San Francisco,Medicine,Department of Urology School of Medicine,
+35,35,"Eisenberg, Michael L",USA,University of California San Francisco,Medicine,Department of Urology School of Medicine,
+36,36,"Denecke, Kerstin",Germany,"Innovation Center Computer Assisted Surgery?
+Forschungszentrum L3S",Computer science,,
+36,36,"Krieck, M",Germany,Lower Saxony State Health Department,Health,,
+36,36,"Otrusina, Lubomir",Czech,Brno University of Technology,Engineering,,
+36,36,"Smrz, Pavel",Czech,Brno University of Technology,Engineering,,
+37,37,"Sadilek, Adam",USA,University of Rochester,Computer Science,Department of Computer Science,sadilek@cs.rochester.edu 
+37,37,"Kautz, Henry A",USA,University of Rochester,Computer Science,Department of Computer Science,kautz@cs.rochester.edu 
+37,37,"Silenzio, Vincent",USA,University of Rochester,Medicine,School of Medicine and Dentistry,v.m.silenzio@rochester.ed
+38,38,"Althouse, Benjamin M",USA,Johns Hopkins Bloomberg School of Public Health,Epidemiology,Department of Epidemiology,
+38,38,"Ng, Yih Yng",Singapore,Singapore Armed Forces,Medicine,Headquarters Medical Corps,
+38,38,"Cummings, Derek AT",USA,Johns Hopkins Bloomberg School of Public Health,Epidemiology,Department of Epidemiology,
+39,39,"Dredze, Mark",USA,Johns Hopkins Univ,"Computer Science,Health","Computer Science, Health",
+40,40,"Hooten, Mevin B",USA,Utah State University,"Math,Statistics",Department of Mathematics and Statistics,Mevin.Hooten@usu.edu
+40,40,"Anderson, Jessica",USA,Utah State University,"Math,Statistics",Department of Mathematics and Statistics,jess.a@aggiemail.usu.edu
+40,40,"Waller, Lance A",USA,Emory University,"Biology,Statistics",Department of Biostatistics,lwaller@sph.emory.edu
+41,41,"Hulth, A",Sweden ,Swedish Institute for Communicable Disease Control,Disease ,,
+41,41,"Rydevik, G",Sweden ,Swedish Institute for Communicable Disease Control,Disease ,,
+42,42,"Boyle, Justin R",Australia,CSIRO ICT Centre,Computer Science,Computational Informatics,justin.boyle@csiro.au
+42,42,"Sparks, Ross S",Australia,CSIRO Mathematics Informatics and Statistics,"Math,Statistics",,
+42,42,"Keijzers, Gerben B",Australia,Gold Coast Hospital,Medicine,,
+42,42,"Crilly, Julia L",Australia,Gold Coast Hospital,Medicine,"Southern Area Health Service ED Clinical Network, and Griffith University Research Centre for Clinical and Community Practice Innovation",
+43,43,"Hulth, Anette",Sweden,Swedish Institute for Infectious Disease Control,Disease ,,
+43,43,"Rydevik, Gustaf",Sweden,Swedish Institute for Infectious Disease Control,Disease ,,
+44,44,"Krieck, Manuela",Germany ,Governmental Institute of Public Health of Lower Saxony,Health,,manuela.krieck@nlga.niedersachsen.de
+44,44,"Dreesman, Johannes",Germany ,Governmental Institute of Public Health of Lower Saxony ,Health,,johannes.dreesman@nlga.niedersachsen.de
+44,44,"Otrusina, Lubomir",Czech,Brno University of Technology ,"Computer Science,Communication",Department of Computer Graphics and Multimedia,iotrosina@fit.vutbr.cz
+44,44,"Denecke, Kerstin",Germany ,L3S Research Center,Computer Science,Scientific Director at Innovation Center Computer Assisted Surgery,denecke@l3s.de
+45,45,"Szomszor, Martin",UK,City University,Health,City eHealth Research Centre,martin.szomszor.l@city.ac.uk
+45,45,"Kostkova, Patty",UK,City University,Health,City eHealth Research Centre,patty@soi.city.ac.uk
+45,45,"De Quincey, Ed",UK,University of Greenwich,"Computer,Math",School of Computing and Mathematics,
+46,46,"Zhang, Ying",USA,Georgetown University,Health,Department of Health Systems Administration,
+46,46,"May, Larissa",USA,The George Washington University,"Medicine,Epidemiology,Biology,Statistics",Department of Emergency Medicine and Epidemiology and Biostatistics,
+46,46,"Stoto, Michael A",USA,Georgetown University,Health,Department of Health Systems Administration,
+47,47,"Carlson, Sandra J",Australia,Newcastle University,"Medicine,Health","Author affiliations: Hunter Medical Research Institute;
+Hunter New England Population Health",
+47,47,"Dalton, Craig B",Australia,Newcastle University,"Medicine,Health","Author affiliations: Hunter Medical Research Institute,
+Hunter New England Population Health",
+47,47,"Durrheim, David N",Australia,Newcastle University,"Medicine,Health","Author affiliations: Hunter Medical Research Institute;
+Hunter New England Population Health",
+47,47,"Fejsa, John",Australia,Newcastle University,Health,Hunter New England Population Health,
+48,48,"Collier, Nigel",,National Inst. Informatics,informatics,,collier@nii.ac.jp
+48,48,"Goodwin, Reiko Matsuda",,Fordham University,"Social Science,Anthropology",Department of Sociology & Anthropology,reikogoodwin@gmail.com
+48,48,"McCrae, John",,Bielefeld University,Computer Science,AG Semantic Computing  ,johnmccrae@gmail.com
+48,48,"Doan, Son",,Vanderbilt University,Computer Science,Software Developer/Research Scientist in Natural Language Processing and Machine Learning,son.doan@vanderbilt.edu
+49,49,"Collignon, P",Australia," Australian National University;
+Canberra 
+Hospita","Medicine,Disease","School of Clinical Medicine;
+ Department of Infectious Diseases and Microbiology",
+50,50,"Ramakrishnan, Naren",,Virginia Tech,Engineering,Engineering,
+50,50,"Hanauer, David",,University of Michigan,Medicine,Department of Pediatrics,
+50,50,"Keller, Benjamin",,Eastern Michigan University,Computer Science,Computer Science,
+51,51,"Signorini, Alessio",USA,the University of Iowa,"Computer Science,Epidemiology",data mining and computational epidemiology,signorini@uiowa.edu
+51,51,Alberto Maria Segre,USA,the University of Iowa,Informatics,"Department of Computer Science, Informatics",segre@uiowa.edu
+51,51,"Polgreen, Philip",USA,the University of Iowa,Medicine,"Carver College of Medicine,Internal Medicine",polgreen@uiowa.edu
+52,52,"Stoto, Michael A",USA,Georgetown University,"Health,Medicine","Department of Health Systems Administration, School of Nursing and Health Systems Administration",stotom@georgetown.edu
+53,53,"Chowell, Gerardo",USA,"Arizona State University;
+ National Institutes of Health","Math,Computer,Epidemiology","Mathematical, Computational & Modeling Sciences Center, School of Human Evolution and Social Change;
+Division of Epidemiology and Population Studies, Fogarty International Center",
+53,53,"Echevarría-Zuno, Santiago",Mexico, Instituto Mexicano del Seguro Social,Medicine,Directorate of Medical Services,
+53,53,"Viboud, Cecile",USA,National Institutes of Health,Epidemiology,"Division of Epidemiology and Population Studies, Fogarty International Center",
+53,53,"Simonsen, Lone",USA,"National Institutes of Health;
+George Washington University","Epidemiology,Health","Division of Epidemiology and Population Studies, Fogarty International Center;
+Department of Global Health, School of Public Health and Health Services",
+54,54,"Kuehn, Bridget M",,,NULL,,
+55,55,"Linde, A",Sweden,Swedish Institute for Infectious Disease Control,Epidemiology,Department of Epidemiology,annika.linde@smi.se
+55,55,"Rotzen-Ostlund, M",Sweden,Karolinska University Hospital,Medicine,Department of Clinical Microbiology,
+55,55,"Zweygberg-Wirgart, B",Sweden,Karolinska University Hospital,Medicine,Department of Clinical Microbiology,
+55,55,"Rubinova, S",Sweden,Swedish Institute for Infectious Disease Control,Epidemiology,. Department of Epidemiology,
+56,56,"Zamite, João",Portugal,University of Lisbon,Science,"LaSIGE, Faculty of Science",
+56,56,"Silva, Fabrício AB",Brazil,Information Technology Division,Engineering,Army Technology Center,
+56,56,"Couto, Francisco",Portugal,University of Lisbon,Science,"LaSIGE, Faculty of Science",
+56,56,"Silva, Mário J",Portugal,University of Lisbon,Science,"LaSIGE, Faculty of Science",
+57,57,"Achrekar, Harshavardhan",USA,University of Massachusetts Lowell,Computer Science,1Department of Computer Science,
+57,57,"Gandhe, Avinash",USA,"Scienti?c Systems Company Inc, 500 West Cummings Park",Engineering,,
+57,57,"Lazarus, Ross",USA,Harvard Medical School,Medicine,Department of Population Medicine,
+57,57,"Yu, Ssu-Hsin",USA,"Scienti?c Systems Company Inc, 500 West Cummings Park",Engineering,,
+58,58,"Lee, Brian K",USA,Drexel University School of Public Health,"Epidemiology,Biology,Statistics",the Department of Epidemiology and Biostatistics,
+59,59,"Manning, S",New Zealand,University of Otago,Health,Department of Public Health,
+59,59,"Barry, T",New Zealand,University of Otago,Health,Department of Public Health,
+59,59,"Wilson, N",New Zealand,University of Otago,Health,Department of Public Health,
+59,59,"Baker, M",New Zealand,University of Otago,Health,Department of Public Health,michael.baker@otago.ac.nc
+60,60,"Sugawara, Tamie",Japan,National Institute of Infectious Diseases,Disease ,Infectious Disease Surveillance Center,
+60,60,"Ohkusa, Yasushi",Japan,National Institute of Infectious Diseases,Disease ,Infectious Disease Surveillance Center,
+60,60,"Ibuka, Yoko",Japan,Hitotsubashi University,"Economics,Public Health,Medicine","Economics,Public Health,Pharmaceutical Sciences",
+60,60,"Kawanohara, Hirokazu",Japan,"EM Systems Co., Ltd","Medicine,Computer Science",sell medical administrative computer systems,
+61,61,"Vandendijck, Yannick",Belgium,Hasselt Universit,"Biology,Statistics",Interuniversity Institute for Biostatistics and statistical Bioinformatics,
+61,61,"Faes, Christel",Belgium,Hasselt Universit,"Biology,Statistics",Interuniversity Institute for Biostatistics and statistical Bioinformatics,
+61,61,"Hens, Niel",Belgium,"Hasselt Universit;
+University of Antwerp","Biology,Statistics,Disease","Interuniversity Institute for Biostatistics and statistical Bioinformatics;
+Centre for Health Economic Research and Modeling Infectious Diseases, Vaccine and Infectious Disease Institute",
+62,62,"Murota, Tomoki",Japan ,Univ. of Tokyo,Science,Grad. Sch. of Frontier Sci,
+62,62,"Kato, Akira",,,NULL,,
+62,62,"Okumura, Takashi",,,NULL,,
+63,63,"Shaman, Jeffrey",USA,Columbia University,Health,"Department of Environmental Health Sciences,Mailman School of Public Health",
+63,63,"Karspeck, Alicia",USA,"Climate and Global Dynamics Division, National Center for Atmospheric Research",Environment,,
+63,63,"Lipsitch, Marc",USA,Harvard University,Disease ,"Center for Communicable Disease Dynamics, Harvard School of Public Health",
+64,64,"Doan, Son",USA,University of California,"Biology,Medicine,Informatics",Division of Biomedical Informatics,
+64,64,"Ohno-Machado, Lucila",USA,University of California,"Biology,Medicine,Informatics",Division of Biomedical Informatics,
+64,64,"Collier, Nigel",Japan,Chiyoda-ku,informatics,National Institute of Informatics,nigel@nii.ac.jp
+65,65,"Kelly, Heath A",Australia,"Victorian Infectious Diseases Reference Laboratory;
+Australian National Universit",Epidemiology,National Centre for Epidemiology and Population Healt,
+65,65,"Grant, Kristina A",Australia,Victorian Infectious Diseases Reference Laboratory,Epidemiology,,
+65,65,"Tay, Ee Laine",Australia,"Victorian Infectious Diseases Reference Laboratory;
+Australian National Universit",Epidemiology,National Centre for Epidemiology and Population Healt,
+65,65,"Franklin, Lucinda",Australia,Communicable Disease Epidemiology and Surveillance,Health,Department of Health,
+66,66,"Nsoesie, Elaine",USA,"Boston Children’s Hospital;
+Harvard Medical School;
+Virginia Bioinformatics Institute, Virginia Tech","Informatics,Medicine","Children’s Hospital Informatics Program;
+Department of Pediatrics;
+Network Dynamics and Simulation Science Laboratory",
+66,66,"Mararthe, Madhav",,Virginia Tech,Computer Science,Department of Computer Science,
+66,66,"Brownstein, John",USA,Harvar,"Medicine,Health",Harvard Medical School and Harvard-MIT Division of Health Sciences and Technology,
+67,67,"Scarpino, Samuel V",USA,The University of Texas at Austin,Biology,Section of Integrative Biology,
+67,67,"Dimitrov, Nedialko B",USA,Naval Postgraduate School,Operations Research,Operations Research Department,
+67,67,"Meyers, Lauren Ancel",USA,"The University of Texas at Austin;
+The Santa Fe Institute",Biology,Section of Integrative Biology,
+68,68,"Bilge, Ugur",Turkey,Akdeniz University,Medicine,"Biostatistics and Medical Informatics, Faculty of Medicine",ubilge@akdeniz.deu.tr
+68,68,"Bozkurt, Selen",Turkey,Akdeniz University,Medicine,"Department of Biostatistics and Medical Informatics, Faculty of Medicine",
+68,68,"Yolcular, Basak Oguz",Turkey,Akdeniz University,Medicine,"Department of Biostatistics and Medical Informatics, Faculty of Medicine",
+68,68,"Ozel, Deniz",Turkey,Akdeniz University,Medicine,"Department of Biostatistics and Medical Informatics, Faculty of Medicine",
+69,69,"Chowell, Gerardo",USA,"Arizona State University;
+Division of Epidemiology and Population Studies, Fogarty International Center, National Institutes of Health","Math,Computer,Social Science","Mathematical, Computational & Modeling Sciences Center, School of Human Evolution and Social Change",
+69,69,"Viboud, Cécile",USA,"Division of Epidemiology and Population Studies, Fogarty International Center, National Institutes of Healt",Epidemiology,,
+69,69,"Munayco, Cesar V",Peru,"Department of Epidemiology, Ministry of Health Peru",Epidemiology,,
+69,69,"Gómez, Jorge",Peru,"Department of Epidemiology, Ministry of Health Peru",Epidemiology,,
+70,70,"Chunara, Rumi",USA,"Harvard Medical School;
+Boston Children's Hospital",Medicine,"Department of Pediatrics;
+Children's Hospital Informatics Program, Division of Emergency Medicine",rumi@alum.mit.edu
+70,70,"Freifeld, Clark C",USA," Boston Children's Hospital;
+Boston University College of Engineering","Medicine,Engineering","Children's Hospital Informatics Program, Division of Emergency Medicine;
+Department of Biomedical Engineering",
+70,70,"Brownstein, John S",USA,"Harvard Medical School;
+Boston Children's Hospital",Medicine,"Department of Pediatrics;
+Children's Hospital Informatics Program, Division of Emergency Medicine",
+71,71,"Achrekar, Harshavardhan",USA,Univ. of Massachusetts Lowell,Computer Science,Dept. of Comput. Sci.,
+71,71,"Gandhe, Avinash",USA,500 West Cummings Park,Engineering,Scientific Systems Company Inc,
+71,71,"Lazarus, Ross",USA,Harvard Medical School,Medicine,Department of Population Medicine,
+71,71,"Yu, Ssu-Hsin",USA,500 West Cummings Park,Engineering,Scientific Systems Company Inc,
+72,72,"Ludkovski, Michael",USA,University of California,Statistics,Department of Statistics and Applied Probability,ludkovski@pstat.ucsb.edu
+72,72,"Niemi, Jarad",USA,University of California,Statistics,Department of Statistics and Applied Probability,niemi@pstat.ucsb.edu
+73,73,"Conesa, D",Spain,Universitat de Val`encia,Statistics,Department of Statistics and Operations Research,
+73,73,"Martínez-Beneito, MA",Spain, Generalitat Valenciana,Health,Center for Advanced Research in Public health papers,
+73,73,"Amorós, R",Spain," Generalitat Valenciana;
+Universidad Cardenal Herrera-CEU","Health,Physics,Math,Computer","Superior Research Center in Public Health;
+Department of Physics, Mathematics and Computer",
+73,73,"López-Qu?lez, A",Spain,Universitat de Val`encia,Statistics,Department of Statistics and Operations Research,
+74,74,"Elliot, A",UK,Health Protection Agency West Midlands,Medicine,Real-time Syndromic Surveillance Team,
+75,75,"Sparke, Matthew",USA,University of Washington,Health,Global Health,sparke@uw.edu
+75,75,"Anguelov, Dimitar",USA,University of Washington,Geography,Department of Geography,
+76,76,"Bernardo, Theresa Marie",USA,Michigan State University,Veterinary Medicine,College of Veterinary Medicine,
+76,76,"Rajic, Andrijana",Canada;Italy,"University of Guelph;
+Public Health Agency of Canada;
+Food and Agriculture Organisation","Medicine,Agriculture","Department of Population Medicine;
+Laboratory for Foodborne Zoonoses, ;
+Agriculture Department",
+76,76,"Young, Ian",Canada,"University of Guelph, Guelph;
+Public Health Agency of Canada","Medicine,Agriculture","Department of Population Medicine;
+Laboratory for Foodborne Zoonoses",
+76,76,"Robiadek, Katie",USA,University of Wisconsin-Madison,Politics,Department of Political Science,
+77,77,"Aramaki, Eiji",Japan,"The University of Tokyo;
+Japan Science and Technology Agency (JST)","Knowledge Structure,Science","Center for Knowledge Structuring;
+Precursory Research for Embryonic Science and Technology (PRESTO)",
+77,77,"Maskawa, Sachiko",Japan,The University of Tokyo,Knowledge Structure,Center for Knowledge Structuring,
+77,77,"Morita, Mizuki",Japan,National Institute of Biomedical Innovation (NIBIO),Medicine,Department of Fundamental Research,
+78,78,"Chunara, Rumi",USA,"Harvard Medical School;
+Boston Children’s Hospital",Medicine,,
+78,78,"Aman, Susan",USA,Boston Children’s Hospital,Medicine,,
+78,78,"Smolinski, Mark",USA,Skoll Global Threats Fund,NULL,,
+78,78,"Brownstein, John S",USA,"Harvard Medical School;
+Boston Children’s Hospital",Medicine,,
+79,79,"Giustini, Dean",Canada,UBC Biomedical Branch Library,Health,Gordon and Leslie Diamond Health Care Centre,
+80,80,"Santos, José Carlos",Portugal,University of Aveiro,"Computer Science,Engineering",IEETA,
+80,80,"Matos, Sérgio",Portugal,University of Aveiro,"Computer Science,Engineering",IEETA,
+81,81,"Collignon, Peter",Australia,Australian National University,Medicine,School of Clinical Medicine,peter.collignon@act.gov.au
+82,82,"Hirose, Hideo",Japan,Sch. of Comput. Sci. & Syst. Eng.,Engineering, Kyushu Inst. of Technol.,
+82,82,"Wang, Liangliang",China,Peking Univ.,Engineering,Inst. of Microelectron,
+83,83,"Lee, Kathy",USA,Northwestern University,"Engineering,Computer Science",Department of Electrical Engineering and Computer Science,
+83,83,"Agrawal, Ankit",USA,Northwestern University,"Engineering,Computer Science",Department of Electrical Engineering and Computer Science,
+83,83,"Choudhary, Alok",USA,Northwestern University,"Engineering,Computer Science",Department of Electrical Engineering and Computer Science,
+84,84,"Bodnar, Todd",,Pennsylvania State University,Biology,Department of Biology,tjb5215@psu.edu
+84,84,"Salathé, Marcel",,Pennsylvania State University,Biology,Department of Biology,salathe@psu.edu
+85,85,"Bodnar, Todd",,Pennsylvania State University,Biology,"Center for Infectious Disease
+Dynamics and Department
+of Biology",toddbodnar@gmail.com 
+85,85,"Barclay, Victoria C",,Pennsylvania State University,Biology,"Center for Infectious Disease
+Dynamics and Department
+of Biology",vickistar50@gmail.com 
+85,85,"Ram, Nilam",,Pennsylvania State University,Anthropology,"Department of Human
+Development and
+Family Studies",nilam.ram@psu.edu 
+85,85,"Tucker, Conrad S",,Pennsylvania State University,Engineering,"Department of Engineering
+Design and Industrial and
+Manufacturing Engineering",conrad.tucker@psu.edu
+86,86,"Yang, Wan",USA,Columbia University,Health,"Department of Environmental Health Sciences, Mailman School of Public Health",
+86,86,"Karspeck, Alicia",USA,National Center for Atmospheric Research,Environment,Climate and Global Dynamics Division,
+86,86,"Shaman, Jeffrey",USA,Columbia University,Health,"Department of Environmental Health Sciences, Mailman School of Public Health",
+87,87,"Brennan, Sean",USA,University of Rochester,Computer Science,Department of Computer Science,sbrennan@u.rochester.edu
+87,87,"Sadilek, Adam",USA,University of Rochester,Computer Science,Department of Computer Science,
+87,87,"Kautz, Henry",USA,University of Rochester,Computer Science,Department of Computer Science,
+88,88,"Santos, José C",Portugal,University of Aveiro,NULL,DETI/IEETA,
+88,88,"Matos, Sérgio",Portugal,University of Aveiro,NULL,DETI/IEETA,
+89,89,"Olson, Donald R",USA,New York City Department of Health and Mental Hygiene,Health,,
+90,90,"Olson, Donald R",USA,New York City Department of Health and Mental Hygiene,Health,,
+90,90,"Konty, Kevin J",USA,New York City Department of Health and Mental Hygiene,Health,,
+90,90,"Paladini, Marc",USA,New York City Department of Health and Mental Hygiene,Health,,
+90,90,"Viboud, Cecile",USA,"Fogarty International Center, National Institutes of Health",Health,,
+91,91,"Wada, Koji",Japan,Kitasato University School of Medicine,Health,Department of Public Health,
+91,91,"Ohta, Hiroshi",Japan,Kitasato University School of Medicine,Health,Department of Public Health,
+91,91,"Aizawa, Yoshiharu",Japan,Kitasato University School of Medicine,Health,Department of Public Health,
+92,92,"Thompson, LH",Canada,University of Manitoba,Health ,Department of Community Health Sciences,
+92,92,"Malik, MT",Canada;Arab,"University of Manitoba;
+Khalifa University of Science, Technology and Research","Health,Math","Department of Community Health Sciences;
+Department of Applied Mathematics and Sciences
+Department of Mathematics",
+92,92,"Gumel, A",Canada,University of Manitoba,Math,Department of Mathematics,
+92,92,"Strome, T",Canada,"University of Manitoba;
+Winnipeg Regional Health Authority",Medicine,Department of Emergency Medicine,
+93,93,"Gesualdo, Francesco",Italy,Bambino Gesù Children’s Hospital IRCCS,Disease,Multifactorial Diseases and Complex Phenotypes Research Area,
+93,93,"Stilo, Giovanni",Italy,“Sapienza” University of Rome,Informatics,Department of Informatics,
+93,93,"Gonfiantini, Michaela V",Italy,Bambino Gesù Children’s Hospital IRCCS,Disease,Multifactorial Diseases and Complex Phenotypes Research Area,
+93,93,"Pandolfi, Elisabetta",Italy,Bambino Gesù Children’s Hospital IRCCS,Disease,Multifactorial Diseases and Complex Phenotypes Research Area,
+94,94,"Liu, Fan",China,Graduate University of Chinese Academy of Sciences,Management,Management School,
+94,94,"Lv, Benfu",China,Graduate University of Chinese Academy of Sciences,Management,Management School,
+94,94,"Peng, Geng",,,NULL,,
+94,94,"Li, Xiuting",,,NULL,,
+95,95,"Patwardhan, Avinash",USA,Walgreen Co,Medicine,Clinical Affairs,
+95,95,"Lorber, David",USA,Walgreen Co,Medicine,Clinical Affairs,
+96,96,"Timpka, Toomas",Sweden, Linköping Universit,"Medicine,Health",Department of Medical and Health Sciences,
+96,96,"Spreco, Armin",Sweden, Linköping Universit,"Medicine,Health",Department of Medical and Health Sciences,
+96,96,"Dahlström, Örjan",Sweden,Linköping University,Behavior,Department of Behavioural Sciences and Learning,
+96,96,"Eriksson, Olle",Sweden,Linköping University,Computer Science,Department of Computer and Information Scienc,
+97,97,"Chrzanowski, Mike",,,NULL,,
+97,97,"Ku, Jerome",,,NULL,,
+97,97,"Pong, Foon Wang",,,NULL,,
+98,98,"Khuwaja, Salma",USA,"Bureau of Epidemiology, Houston Department of Health and Human Services",Epidemiology,,Salma.khuwaja@houstontx.gov
+98,98,"Mgbere, Osaro",USA,"Bureau of Epidemiology, Houston Department of Health and Human Services",Epidemiology,,
+98,98,"Awosika-Olumo, Adebowale",USA,"Bureau of Epidemiology, Houston Department of Health and Human Services",Epidemiology,,
+98,98,"Momin, Fayaz",USA,"Bureau of Epidemiology, Houston Department of Health and Human Services",Epidemiology,,
+99,99,"Postnikov, Eugene B",USA,"Bureau of Epidemiology, Houston Department of Health and Human Services",Epidemiology,,
+100,100,"Achrekar, Harshavardhan",USA,University of Massachusetts Lowell,Computer Science,Department of Computer Science,
+100,100,"Gandhe, Avinash",USA,Scienti?c Systems Company Inc,Engineering,500 West Cummings Park,
+100,100,"Lazarus, Ross",USA,Harvard Medical School,Medicine,Department of Population Medicine,
+100,100,"Yu, Ssu-Hsin",USA,Scienti?c Systems Company Inc,Engineering,500 West Cummings Park,
+101,101,"Chretien, Jean-Paul",USA, Armed Forces Health Surveillance Center,Health,Division of Integrated Biosurveillance,
+101,101,"George, Dylan",USA,"Division of Analytic Decision Support, Biomedical Advanced Research and Development Authority, Department of Health and Human Services",Health,,
+101,101,"Shaman, Jeffrey",USA,Columbia University,"Environment,Health","Department of Environmental Health Sciences, Mailman School of Public Health",
+101,101,"Chitale, Rohit A",USA, Armed Forces Health Surveillance Center,Health,Division of Integrated Biosurveillance,
+102,102,"Li, Jiwei",USA,Carnegie Mellon University,Computer Science,School of Computer Science,bdlijiwei@gmail.com
+102,102,"Cardie, Claire",USA,Cornell University,Computer Science,Department of Computer Science,cardie@cs.cornell.edu
+103,103,"Cho, Sungjin",South Korea,"University of Ulsan,College of Medicine,Asan Medical Center",Medicine,Department of Emergency Medicine,
+103,103,"Sohn, Chang Hwan",South Korea,"University of Ulsan,College of Medicine,Asan Medical Center",Medicine,Department of Emergency Medicine,
+103,103,"Jo, Min Woo",South Korea,"University of Ulsan, College of Medicine, Asan Medical Center",Medicine,Department of Preventive Medicine,
+103,103,"Shin, Soo-Yong",South Korea,"University of Ulsan, College of Medicine, Asan Medical Center","Biology,Medicine,Informatics",Department of Biomedical Informatics,
+104,104,"Lee, Bumsuk",South Korea,Catholic Univ. of Korea,"Computer science,Engineering","Dept. of Comput. Sci. & Eng.,",
+104,104,"Yoon, Jinyoung",South Korea,The Catholic University of Korea,NULL,,
+104,104,"Kim, Seokjung",South Korea,The Catholic University of Korea,NULL,,
+104,104,"Hwang, Byung-Yeon",South Korea,The Catholic University of Korea,"Computer science,Engineering",School of Computer Science & Information Engineering,byhwang@catholic.ac.kr
+105,105,"Nsoesie, Elaine O",USA,"Boston Children's Hospital;
+Harvard Medical School;
+Virginia Bioinformatics Institute
+Virginia Tech","Informatics,Medicine","Children's Hospital Informatics Program;
+Department of Pediatrics;
+Network Dynamics and Simulation Science Laboratory",
+105,105,"Brownstein, John S",USA;Canada,"Boston Children's Hospital;
+Harvard Medical School;
+McGill University;
+Virginia Tech;","Informatics,Medicine,Epidemiology,Biostatistics","Children's Hospital Informatics Program;
+Department of Pediatrics;
+Department of Epidemiology, Biostatistics and Occupational Health",
+105,105,"Ramakrishnan, Naren",USA,Virginia Tech,Computer Science,Department of Computer Science,
+105,105,"Marathe, Madhav V",USA,"Virginia Bioinformatics Institute;
+Virginia Tech","informatics,Computer science","Network Dynamics and Simulation Science Laboratory;
+Department of Computer Science",
+106,106,"Stoto, Michael A",USA,Georgetown University,Health,Department of Health Systems Administration,stotom@georgetown.edu
+107,107,"Broniatowski, David A",USA,"The George Washington University;
+Johns Hopkins University","Engineering,Health,Medicine","Department of Engineering Management and Systems Engineering;
+Center for Advanced Modeling in the Social, Behavioral, and Health Sciences, Department of Emergency Medicine, School of Medicine",
+107,107,"Paul, Michael J",USA,Johns Hopkins University,"Language,Computer Science",Department of Computer Science and Center for Language and Speech Processing,
+107,107,"Dredze, Mark",USA,Johns Hopkins University,"Language,Computer Science",Human Language Technology Center of Excellence and Department of Computer Science,
+108,108,"de Lange, Marit MA",Netherlands,National Institute for Public Health and the Environment (RIVM),Disease,Centre for Infectious Disease Control Netherlands,
+108,108,"Meijer, Adam",Netherlands,National Institute for Public Health and the Environment (RIVM),Disease,Centre for Infectious Disease Control Netherlands,
+108,108,"Friesema, Ingrid HM",Netherlands,National Institute for Public Health and the Environment (RIVM),Disease,Centre for Infectious Disease Control Netherlands,
+108,108,"Donker, Gé A",Netherlands,"NIVEL, Netherlands Institute for Health Services Research",Health ,,
+109,109,"Freberg, Karen",USA,University of Louisville,Communication,Department of Communication,freeburg@louisville.edu
+109,109,"Palenchar, Michael J",USA,University of Tennessee,Communication,School of Advertising and Public Relations,mpalench@utk.edu
+109,109,"Veil, Shari R",USA,University of Kentucky,Communication,"Department of Communication, College of Communications and Information",shari.veil@ou.edu
+110,110,"Fung, Isaac Chun-Hai",USA,Georgia Southern University,Epidemiology,"Department of Epidemiology, Jiann-Ping Hsu College of Public Health",fung@georgiasouthern.edu
+110,110,"Fu, King-Wa","HK, China",The University of Hong Kong,Journalism,Journalism and Media Studies Center,kwfu@hku.hk
+110,110,"Ying, Yuchen",USA,The University of Georgia,Computer Science,Department of Computer Science,yegle@uga.edu
+110,110,"Schaible, Braydon",USA,"Jiann-Ping Hsu College of Public Health, Georgia Southern University","Biology,Statistics",Department of Biostatistics,bs05313@georgiasouthern.edu
+111,111,"Bhattacharya, I",India,International Institute of Health Management Research,Health,,indrajitbhat@gmail.com
+111,111,"Ramachandran, A",India,International Institute of Health Management Research,Health,,anandhirama@gmail.com
+111,111,"Bhattacharya, J",India,Indian Institute of Technology,Engineering,,aijit@gmail.com
+111,111,"Dogra, NK",India,International Institute of Health Management Research,Health,,nitish.dogra@gmail.com
+112,112,"Milinovich, Gabriel J",Australia,"The University of Queensland, Herston","Epidemiology,Health","Infectious Disease Epidemiology Unit, School of Population Health;
+School of Population Health",g.milinovich@uq.edu.au
+112,112,"Williams, Gail M",Australia,The University of Queensland,"Epidemiology,Health","Infectious Disease Epidemiology Unit, School of Population Health",
+112,112,"Clements, Archie CA",Australia,The University of Queensland,"Epidemiology,Health","Infectious Disease Epidemiology Unit, School of Population Health",
+112,112,"Hu, Wenbiao",Australia,"The University of Queensland;
+Queensland University of Technology","Epidemiology,Health","Infectious Disease Epidemiology Unit, School of Population Health;
+School of Public Health and Social Work",
+113,113,"Gluskin, Rebecca Tave",USA,Children's Hospital Boston,"Medicine,Informatics",Children's Hospital Informatics Program,
+113,113,"Johansson, Michael A",USA,Centers for Disease Control and Prevention,Diseases,"Dengue Branch, Division of Vector-Borne Diseases",
+113,113,"Santillana, Mauricio",UK;USA,"Harvard University, Cambridge",Engineering,School of Engineering and Applied Sciences,
+113,113,"Brownstein, John S",USA,Children's Hospital Boston,"Medicine,Informatics",Children's Hospital Informatics Program,
+114,114,"Huang, Jiangmiao",China ,East China Normal Univ.,Engineering,Software Eng. Inst.,
+114,114,"Zhao, Hui",,,NULL,,
+114,114,"Zhang, Jie",,,NULL,,
+115,115,"Suda, Katie J",USA,University of Tennessee Health Science Center,Medicine,Department of Clinical Pharmacy,"ksuda@uthsc.edu;
+katiesuda@gmail.com"
+115,115,"Regen, Sloan M",USA,University of Tennessee Health Science Center,Medicine,Department of Clinical Pharmacy,
+115,115,"Lee, Todd A",USA,University of Illinois at Chicago,Medicine,Department of Pharmacy Practice,
+115,115,"Easterling, Jennifer L",USA,University of Tennessee Health Science Center,Medicine,Department of Clinical Pharmacy,
+116,116,"Chan, Emily",USA,Children’s Hospital Boston,Medicine,,
+116,116,"Sahai, Vikram",USA,"Google, Inc.",Engineering,,
+116,116,"Conrad, Corrie",USA,"Google, Inc.",Engineering,,
+116,116,"Brownstein, John",USA,Children’s Hospital Boston,Medicine,,
+117,117,"Devroey, Dirk",Belgium,Vrije Universiteit Brussel (VUB),Anthropology,Department of Family Practice,
+117,117,"Semaille, Pascal",Belgium,Université Libre de Bruxelles (ULB),Anthropology,Department of Family Practice,
+117,117,"Vansintejan, Johan",Belgium,Vrije Universiteit Brussel (VUB),Anthropology,Department of Family Practice,
+117,117,"Vandevoorde, Jan",Belgium,Vrije Universiteit Brussel (VUB),Anthropology,Department of Family Practice,
+118,118,"Shaman, Jeffrey",USA,Columbia University,Health,"Department of Environmental Health Sciences, Mailman School of Public Health",
+118,118,"Karspeck, Alicia",USA,National Center for Atmospheric Research,Environment,Climate and Global Dynamics Division,
+118,118,"Yang, Wan",USA,Columbia University,Health,"Department of Environmental Health Sciences, Mailman School of Public Health",
+118,118,"Tamerius, James",USA,University of Iowa,Geography,Department of Geographical and Sustainability Science,
+119,119,"Fenichel, Eli P",USA,Yale School of Forestry and Environmental Studies,Environment,,
+119,119,"Kuminoff, Nicolai V",USA,Arizona State University,Economics,Department of Economics,
+119,119,"Chowell, Gerardo",USA,"Arizona State University;
+Division of Epidemiology and Population Studies, Fogarty International Center, National Institutes of Health",Anthropology,School of Human Evolution and School Change,
+120,120,"Marcus, Jake R",USA,Practice Fusion(Free electronic health records for doctors),Health,,moc.noisufecitcarp@sucramj
+121,121,"Nagel, Anna C",USA,San Diego State University,Health,Graduate School of Public Health,
+121,121,"Tsou, Ming-Hsiang",USA,San Diego State University,Geography,Department of Geography,
+121,121,"Spitzberg, Brian H",USA,San Diego State University,Communication,School of Communication,
+121,121,"An, Li",USA,San Diego State University,Geography,Department of Geography,
+122,122,"Thomas, Lindsay",USA,UC Santa Barbara,Language,Department of English,lindsaythomas@umail.ucsb.edu
+123,123,"Yang, Y Tony",USA,George Mason University,Health,Department of Health Administration and Policy, ytyang@gmu.edu
+123,123,"Horneffer, Michael",USA,George Mason University,Health,Department of Health Administration and Policy,
+123,123,"DiLisio, Nicole",USA,National Diabetes Information Clearinghouses,Medicine,,
+124,124,"Chunara, Rumi",USA,"Harvard Medical School;
+ Boston Children's Hospital",Medicine,"Department of Pediatrics;
+Children's Hospital Informatics Program, Division of Emergency Medicine",
+124,124,"Freifeld, Clark C",USA,"Boston Children's Hospital;
+Boston University College of Engineerin","Medicine,Engineering","Children's Hospital Informatics Program, Division of Emergency Medicine;
+Department of Biomedical Engineering",
+124,124,"Brownstein, John S",USA,"Harvard Medical School;
+ Boston Children's Hospital",Medicine,"Department of Pediatrics;
+Children's Hospital Informatics Program, Division of Emergency Medicine",
+1,125,"Bentley, R Alexander",UK,Durham University,Anthropology,Anthropology Department,
+1,125,"Ormerod, Paul",UK,"Cambridge,Oxford",Management,Centre for Decision making,
+2,126,"Lin, Raymond Tzer Pin",Singapore,"National University of Singapore;
+Ministry of Health",Health,,
+2,126,"Chen, Mark IC",Singapore,"National University of Singapore;
+Tan Tock Seng Hospital;
+Duke-NUS Graduate Medical School",Medicine,,
+2,126,"Cook, Alex R",Singapore,National University of Singapore,Statistics,Department of Statistics and Applied Probability,
+3,127,"Nougairède, Antoine",France,"Federation of Microbiology, La Timone Hospital, Assistance Publique-Hôpitaux de Marseille",Biology,,
+3,127,"Ninove, Laetitia",France,"Federation of Microbiology, La Timone Hospital, Assistance Publique-Hôpitaux de Marseille",Biology,,
+3,127,"Lagier, Jean-Christophe",France,University of the Mediterranean,Diseases,Research Unit on Emerging Infectious and Tropical Diseases UMR CNRS 6236 IRD 3R198,
+3,127,"Sartor, Catherine",France,"Conception Hospital, Assistance Publique-Hôpitaux de Marseille",Medicine,Committee for the Fight against Nosocomial Infections,
+4,128,"Teytelman, Anna",USA,Cambridge,Engineering,Massachusetts Institute of Technology,teytanna@alum.mit.edu
+4,128,"Larson, Richard C",USA,Cambridge,Engineering,Massachusetts Institute of Technology,rclarson@mit.edu
+5,129,"Fowler, James H",USA,University of California San Diego,"Medicine,Social Sciences","School of Medicine;
+Division of Social Sciences",
+5,129,"Christakis, Nicholas A",USA,"Harvard University;
+Harvard Medical School","Sciences,Health","Faculty of Arts & Sciences;
+Health Care Policy Department",
+6,130,"Miguel Benito, Ángel",Spain,Madrid Health Service,Health,Public Health Service,
+6,130,"Escortell Mayor, Esperanza",Spain,Madrid Health Service,Health,Primary Care Management Area 3,
+6,130,"Monge Corella, Susana",Spain,Madrid Health Service,Health,Instituto de Salud Carlos III,
+6,130,"Valdivia Pérez, Antonio",Spain, Hospital Universitario de la Princesa,Medicine,Servicio de Medicina Preventiva,
+7,131,"Rizzo, Caterina",Italy,Viale Regina Elena 299,Health,National Institute of Health,
+7,131,"Gesualdo, Francesco",Italy,Piazza Sant'Onofrio 4,Medicine,Children's Hospital Bambino Gesù,
+7,131,"Romano, Mariateresa",Italy,Piazza Sant'Onofrio 4,Medicine,Children's Hospital Bambino Gesù,
+7,131,"Pandolfi, Elisabetta",Italy,Piazza Sant'Onofrio 4,Medicine,Children's Hospital Bambino Gesù,
+8,132,"Ungar, Lyle",USA,University of Pennsylvania,"Computer Science,Engineering","Department of Computer Science, School of Engineering and Applied Science",
+8,132,"Hill, Shawndra",USA,University of Pennsylvania,Engineering,"Operations and Information Management, The Wharton School",
+8,132,"Mao, Jun",USA,University of Pennsylvania,Medicine,"Department of Family Medicine and Community Health, School of Medicine",
+8,132,"Hennessy, Sean",USA,University of Pennsylvania,"Biology,Statistics, Epidemiology,Medicine","Department of Biostatistics and Epidemiology, School of Medicine",
+9,133,"Luo, Yuan",China ,Chinese Acad. of Sci.,Engineering,Key Lab. of Complex Syst. & Intell. Sci.,
+9,133,"Zeng, Daniel",China;USA,"Chinese Acad. of Sci.;
+University of Arizona",Engineering,"Key Lab. of Complex Syst. & Intell. Sci.;
+MIS Department",
+9,133,"Cao, Zhidong",China ,Chinese Acad. of Sci.,Engineering,Key Lab. of Complex Syst. & Intell. Sci.,
+9,133,"Zheng, Xiaolong",China ,Chinese Acad. of Sci.,Engineering,Key Lab. of Complex Syst. & Intell. Sci.,
+10,134,"Bentley, R Alexander",UK,Durham University ,Anthropology ,"Anthropology Dept.,",
+10,134,"Ormerod, Paul",UK,"Cambridge,Oxford",Management,Centre for Decision making,
+11,135,"Nsoesie, Elaine O",USA,"Boston Children’s Hospital;
+Harvard Medical School;
+Virginia Bioinformatics Institute, Virginia Tech","Informatics,Medicine","Children's Hospital Informatics Program, Division of Emergency Medicine;
+Network Dynamics and Simulation Science Laboratory
+Department of Pediatrics",
+11,135,"Lv, Benfu",China ,University of Chinese Academy of Sciences,Management,Management School,
+11,135,"Peng, Geng",China ,University of Chinese Academy of Sciences,Management,Management School,
+11,135,"Yuan, Qingyu","China,USA","University of Chinese Academy of Sciences;
+Boston Children’s Hospital","Management,Medicine","Management School;
+Children's Hospital Informatics Program, Division of Emergency Medicine",
+12,136,"Costa, Fabricio F","Brazil,USA","1DataGenno Interactive Research Ltda;
+Genomic Enterprise;
+Northwestern University Feinberg School of
+Medicine","Biology,Epigenomics,Medicine","Cancer Biology and Epigenomics Program, Department of Pediatrics, Children’s Hospital of Chicago Research Center",
+13,137,"Bentley, R Alexander",UK,Durham University,Anthropology,Anthropology Department,r.a.bentley@durham.ac.uk
+13,137,"Ormerod, Paul",UK,"Cambridge,Oxford",Management,Centre for Decision making,pormerod@volterra.co.uk
+14,138,"Bonmarin, Isabelle",France,Institut de Veille Sanitaire (InVS),Diseases,Department of Infectious Diseases,
+14,138,"Debin, Marion",France,"UPMC Univ Paris 06, Faculty of Medicine Pierre and Marie Curie",Medicine,,
+14,138,"Turbelin, Clément",France,"UPMC Univ Paris 06, Faculty of Medicine Pierre and Marie Curie",Medicine,,
+14,138,"Blanchon, Thierry",France,"UPMC Univ Paris 06, Faculty of Medicine Pierre and Marie Curie",Medicine,,
+15,139,"Chen, Chen",China,"Chinese Center for Disease Control and Prevention;
+Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases",Diseases,State Key Laboratory for Infectious Disease Prevention and Control and National Institute for Communicable Disease Control and Prevention,
+15,139,"Lu, Shan",China,"Chinese Center for Disease Control and Prevention;
+Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases",Diseases,State Key Laboratory for Infectious Disease Prevention and Control and National Institute for Communicable Disease Control and Prevention,
+15,139,"Du, Pengcheng",China,"Chinese Center for Disease Control and Prevention;
+Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases",Diseases,State Key Laboratory for Infectious Disease Prevention and Control and National Institute for Communicable Disease Control and Prevention,
+15,139,"Wang, Haiyin",China,Chinese Center for Disease Control and Prevention,Diseases,State Key Laboratory for Infectious Disease Prevention and Control and National Institute for Communicable Disease Control and Prevention,
+16,140,"Cannarella, John",USA,Princeton University,Engineering,Department of Mechanical and Aerospace Engineering,
+16,140,"Spechler, Joshua A",USA,Princeton University,Engineering,Department of Mechanical and Aerospace Engineering,spechler@princeton.edu
+17,141,"Oehler, Richard L",USA,University of South Florida,Diseases,Division of Infectious Disease & International Medicine,
+18,142,"Cook, Alex",Singapore,"National University of Singapore;
+Duke-NUS Graduate Medical School Singapore","Health,Statistics","Saw Swee Hock School of Public Health, and Department of Statistics and Applied Probability;
+Program in Health Servides and Systems Research",
+19,143,"Witkowski, Caitlyn",,Bryant University,Engineering,Science and Technology Department,
+19,143,"Blais, Brian",,"Bryant University;
+Brown University","Engineering,Medicine","Science and Technology Department;
+ Institute for Brain and Neural Systems",cwitkows@bryant.edu
+20,144,"García-Barriocanal, Elena",Spain,University of Alcalá,Computer Science,Computer Science Department,
+20,144,"Sicilia, Miguel-Angel",Spain,University of Alcalá,Computer Science,Computer Science Department,msicilia@uah.es
+20,144,"Samaras, Loukas",Greece,"Ministry of Employment and Social Insurance, General Secretariat of Social Security",Social Science,Department of National Security Registries and Internet,
+21,145,"Kiang, Melody Y",USA,California State University,Business,"Department of Information Systems, College of Business Administration",mkiang@csulb.edu
+21,145,"Yang, Ming",China,Harbin Institute of Technology,Management,School of Management,yangming.hit@gmail.com
+21,145,"Li, Yijun",China,Harbin Institute of Technology,Management,School of Management,liyijun@hit.edu.cn
+22,146,"Generous, Nicholas",USA,Los Alamos National Laboratory,Engineering,National Security Science,
+22,146,"Fairchild, Geoffrey",USA,Los Alamos National Laboratory,Engineering,National Security Science,
+22,146,"Deshpande, Alina",USA,Los Alamos National Laboratory,Engineering,National Security Science,
+22,146,"Del Valle, Sara Y",USA,Los Alamos National Laboratory,Engineering,National Security Science,
+1,147,Tiffany L. Bogich,USA,"EcoHealth Alliance;
+Fogarty International Center, National Institutes of Health;
+Princeton University",Biology,Department of Ecology and Evolutionary Biology,tbogich@princeton.edu
+1,147,Sebastian Funk,USA;UK,"Princeton University;
+Zoological Society of London","Biology,Zoology,Medicine","Department of Ecology and Evolutionary Biology;
+Institute of Zoology;
+London School of Hygiene and Tropical Medicine",sf7@princeton.edu
+1,147,Trent R. Malcolm,USA,EcoHealth Alliance,Health,,
+1,147,Nok Chhun,USA,EcoHealth Alliance,Health,,
+2,148,Loredana Covolo,Italy,University of Brescia,"Medicine,Health","Department of Medical and Surgical Specialties, Radiological Sciences and
+Public Health",
+2,148,Silvia Mascaretti,Italy,University of Brescia,Health,Post-graduate School of Public Health,
+2,148,Anna Caruana,Italy,University of Brescia,Health,Post-graduate School of Public Health,
+2,148,Grazia Orizio,Italy,Brescia Local Health Authority,Medicine,Department of Medical Prevention,
+3,149,N Wilson,New Zealand,University of Otago,Health,Department of Public Health,nick.wilson@otago.ac.nz
+3,149,K Mason,New Zealand,New Zealand Ministry of Health,Health,,
+3,149,M Tobias,New Zealand,New Zealand Ministry of Health,Health,,
+3,149,M Peacey,New Zealand,Institute of Environmental Science and Research Limited (ESR),Disease,WHO National Influenza Centre,
+4,150,Gunther Eysenbach MD MPH,Canada,"University Health Network;
+University of Toronto","Health,Management","Centre for Global eHealth Innovation;
+Department of Health Policy, Management and Evaluation",geysenba@uhnres.utoronto.ca
+5,151,Jeremy Ginsberg,USA,"Google Inc., 1600 Amphitheatre Parkway",Engineering,,
+5,151,Matthew H. Mohebbi,USA,"Google Inc., 1600 Amphitheatre Parkway",Engineering,,
+5,151,Rajan S. Patel,USA,"Google Inc., 1600 Amphitheatre Parkway",Engineering,,
+5,151,Lynnette Brammer,USA,Centers for Disease Control and Prevention,Disease,,
+6,152,Katherine M. Hiller,USA,University of Arizona,Medicine,Department of Emergency Medicine,khiller@aemrc.arizona.edu
+6,152,Lisa Stoneking,USA,University of Arizona,Medicine,Department of Emergency Medicine,
+6,152,Alice Min,USA,University of Arizona,Medicine,Department of Emergency Medicine,
+6,152,Suzanne Michelle Rhodes,USA,University of Arizona,Medicine,Department of Emergency Medicine,
+7,153,Anette Hulth,Sweden,Swedish Institute for Infectious Disease Control,Epidemiology,Department of Epidemiology,anette.hulth@smi.se
+7,153,Gustaf Rydevik,Sweden,Swedish Institute for Infectious Disease Control,Epidemiology,Department of Epidemiology,
+7,153,Annika Linde,Sweden,Swedish Institute for Infectious Disease Control,Epidemiology,Department of Epidemiology,
+8,154,A Hulth,Sweden,Swedish Institute for Communicable Disease Control,Disease,,anette.hulth@smi.se
+8,154,G Rydevik,Sweden,Swedish Institute for Communicable Disease Control,Disease,,
+9,155,H Kelly,Australia,"Epidemiology Unit, Victorian Infectious Diseases Reference Laboratory",Disease,,heath.kelly@mh.org.au
+9,155,K Grant,Australia,"Epidemiology Unit, Victorian Infectious Diseases Reference Laboratory",Disease,,
+10,156,Eui-Ki Kim,Korea,Korea University,"Biology,Informatics","Department of Biotechnology and Bioinformatics, College of Science and Technology",
+10,156,Jong Hyeon Seok,Korea,Korea University,"Biology,Informatics","Department of Biotechnology and Bioinformatics, College of Science and Technology",
+10,156,Jang Seok Oh,Korea,Korea University,Engineering,"Department of Electronics and Information Engineering, College of Science and Technology",
+10,156,Hyong Woo Lee,Korea,Korea University,Engineering,"Department of Electronics and Information Engineering, College of Science and Technology",hwlee@korea.ac.kr
+11,157,MICHAËL R. LAURENT,USA,Katholieke Universiteit Leuven,Medicine,Faculty of Medicine,michael.laurent@gmail.co
+11,157,TIM J. VICKERS,USA,Washington University,Biology,"Department of Molecular Microbiology, School of Medicine",
+12,158,David Lazer,USA,"Northeastern  University;
+Harvard University;
+Cambridge",NULL,"Lazer  Laboratory;
+Harvard Kennedy School",d.lazer@neu.edu
+12,158,Ryan Kennedy,USA,"Northeastern  University;
+Harvard University, Cambridge;
+University of Houston",NULL,"Lazer  Laboratory;
+Institute for Quantitative Social 
+Science",
+12,158,"Gary King,",USA,"Harvard University,Cambridge",NULL,"Institute for Quantitative Social 
+Science",
+12,158,Alessandro Vespignani,USA;Italy,"Northeastern University;
+Institute for Scientifi c Interchange Foundation;
+Harvard University, Cambridge","Biology,Social Science","Laboratory for the Modeling of Biological and Sociotechnical Systems;
+Institute for Quantitative Social 
+Science",
+13,159,Gabriel J Milinovich,Australia,The University of Queensland,Epidemiology,"Infectious Disease Epidemiology Unit, School of Population Health",g.milinovich@uq.edu.au
+13,159,Gail M Williams,Australia,The University of Queensland,Epidemiology,"Infectious Disease Epidemiology Unit, School of Population Health",
+13,159,Archie C A Clements,Australia,The University of Queensland,Epidemiology,"Infectious Disease Epidemiology Unit, School of Population Health",
+13,159,Wenbiao Hu,Australia,"The University of Queensland;
+Queensland University of Technology","Epidemiology,Health,Social Science","Infectious Disease Epidemiology Unit, School of Population Health;
+ School of Public Health and Social Work",
+14,160,Fahad Pervaiz,Pakistan,Lahore University of Management Sciences,"Engineering,Computer Science","School of Science and Engineering, Computer Science Department",fahadp@lums.edu.pk
+14,160,Mansoor Pervaiz,Pakistan,Lahore University of Management Sciences,"Engineering,Computer Science","School of Science and Engineering, Computer Science Department",
+14,160,Nabeel Abdur Rehman,Pakistan,Lahore University of Management Sciences,"Engineering,Computer Science","School of Science and Engineering, Computer Science Department",
+14,160,Umar Saif,Pakistan,Lahore University of Management Sciences,"Engineering,Computer Science","School of Science and Engineering, Computer Science Department",
+15,161,David Scales,USA,"Boston Children’s Hospital, Harvard Medical School;
+Boston Children’s Hospital, Harvard University","Biology,Medicine,Informatics","Children’s Hospital Informatics Program;
+Center for Biomedical Informatics",
+15,161,Alexei Zelenev,USA,Yale University School of Medicine,Disease,"Department of Internal Medicine, Section of Infectious Disease",
+15,161,John S. Brownstein,USA,"Boston Children’s Hospital, Harvard Medical School;
+Boston Children’s Hospital, Harvard University","Biology,Medicine,Informatics","Children’s Hospital Informatics Program;
+Center for Biomedical Informatics",
+16,162,Yla Tausczik,USA,University of Texas,Psychology,Department of Psychology,
+16,162,Kate Faasse,New Zealand,University of Auckland,Psychology,Department of Psychological Medicine,
+16,162,James W. Pennebaker,USA,University of Texas,Psychology,Department of Psychology,
+16,162,Keith J. Petrie,New Zealand,University of Auckland,"Psychology,Medicine",Department of Psychological Medicine,kj.petrie@auckland.ac.nz
+17,163,L. H. THOMPSON,Canada,University of Manitoba,Health,Department of Community Health Sciences,
+17,163,M.T.MALIK,Canada;Arab,"University of Manitoba;
+Khalifa University of Science, Technology and Research","Health,Math","Department of Community Health Sciences;
+Department of Mathematics;
+Department of Applied Mathematics and Sciences",
+17,163,A.GUMEL,Canada,University of Manitoba,Math,Department of Mathematics,
+17,163,T.STROME,Canada,"University of Manitoba;
+Winnipeg Regional Health Authority",Medicine,Department of Emergency Medicine,
+17,163,S. M. MAHMUD,Canada,"University of Manitoba;
+Winnipeg Regional Health Authority",Health,Department of Community Health Sciences,
+18,164,A Valdivia,Spain,Hospital de Dénia (Marina Salud),Medicine,Preventive Medicine Unit,tonyvald@hotmail.com
+18,164,J López-Alcalde,Spain,Agencia Laín Entralgo,Health,Health Technology Asessment Unit,
+18,164,M Vicente,Spain,Primary Health Care,Health,,
+18,164,M Pichiule,Spain,Hospital Universitario de La Princesa,Medicine,Preventive Medicine Service,
+
