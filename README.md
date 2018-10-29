@@ -6,13 +6,9 @@ output: pdf_document
 # Introduction
 This is a brief introduction to R for both programming and data analysis. 
 
-R is not the only tool for computational studies. Sometimes, it is not the best one either. We choose R for instruction just because we, social scientists, find it's easy to learn. It is not a statistical package with programing functions.
+R is not the ONLY tool for computational studies. Sometimes, it is not the best one either. We choose R for instruction just because we, social scientists, find it's easy to learn. It is a statistical package with programing functions.
 
-When we are talking about computational methods, two techniques are involved: programming and data analysis. Programming is different from data analysis. They are two different things, though highly correlated in computational studies. Many students can't tell the differences at the very beginning of learning. They read papers from computer science, statistics, and social sciences. The topics are similar but may have fundamental differences in techniques.
-
-Programmers can develop fantastic applications, such as MS word and PPT. They possibly know nothing about data analysis and didn't take a statistics course.
-
-On the other side, data analyst may have little knowledge on coding. I guess most of you may have some basic knowledge about statistics, but can't write a statistical program using C, JAVA, or Python. You do statistical analysis by simply clicking the buttons in SPSS or STATA. If SPSS doesn't provide a function you needed, you have no idea.
+Two techniques are involved in computational methods: programming and data analysis. They are two different things, though highly correlated in computational studies. Programmers can develop fantastic applications, such as MS word and PPT. They possibly know nothing about data analysis. On the other side, data analysts may have little knowledge on coding. I guess most of you may have some basic knowledge about statistics, but can't write a statistical program using C, JAVA, or Python. You do statistical analysis by simply clicking the buttons in SPSS or STATA. If SPSS doesn't provide a function you need, you have no idea.
 
 In this sense, Python is a good tool for programming, while R is good for data analysis. Data analysis doesn't merely refer to statistics. Machine learning and other data mining models could not be statistical (that means we don't infer parameters with distribution assumptions). 
 
@@ -146,7 +142,7 @@ Similar to vector, we could do simple maths.
 ```{r}
 m+2
 m+m
-m%*%m # matrix nultiplication
+m%*%m # matrix multiplication
 ```
 We can combine two matrices by cols or rows.
 ```{r}
