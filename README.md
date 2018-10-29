@@ -1,7 +1,7 @@
 ---
 title: "R: Review"
 author: "Hai Liang - hailiang@cuhk.edu.hk"
-output: pdf_document
+output: html_document
 ---
 # Introduction
 This is a brief introduction to R for both programming and data analysis. 
