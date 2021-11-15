@@ -4,7 +4,7 @@ author: "Hai Liang - hailiang@cuhk.edu.hk"
 output: html_document
 ---
 # Introduction
-This is a brief introduction to R for both programming and data analysis. 
+This is a brief introduction to R for both programming and data analysis. YouTube link: https://www.youtube.com/watch?v=NCF_XzAj0yk
 
 R is not the ONLY tool for computational studies. Sometimes, it is not the best one either. We choose R for instruction just because we, social scientists, find it's easy to learn. It is a statistical package with programing functions.
 
