@@ -193,8 +193,8 @@ for (name in names) {
 or alternatively, loop over the index of the vector:
 ```{r}
 for (i in 1:4) {
-  N = nchar(name[i])
-  print (paste(name[i],":",N,"characters"))
+  N = nchar(names[i])
+  print (paste(names[i],":",N,"characters"))
 }
 ```
 or use while instead of loop
@@ -202,8 +202,8 @@ or use while instead of loop
 ```{r}
 i=1
 while (i<=4){
-  N = nchar(name[i])
-  print (paste(name[i],":",N,"characters"))
+  N = nchar(names[i])
+  print (paste(names[i],":",N,"characters"))
   i=i+1 #counter
 }
 ```
