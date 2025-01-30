@@ -6,22 +6,22 @@ output: html_document
 # Introduction
 This is a brief introduction to R for both programming and data analysis. YouTube link: https://www.youtube.com/watch?v=NCF_XzAj0yk
 
-R is not the ONLY tool for computational studies. Sometimes, it is not the best one either. We choose R for instruction just because we, social scientists, find it's easy to learn. It is a statistical package with programing functions.
+R is not the ONLY tool for computational studies. Sometimes, it may not be the best option either. We choose R for instruction just because we, social scientists, find it easy to learn. It is a statistical package with programming functions.
 
-Two techniques are involved in computational methods: programming and data analysis. They are two different things, though highly correlated in computational studies. Programmers can develop fantastic applications, such as MS word and PPT. They possibly know nothing about data analysis. On the other side, data analysts may have little knowledge on coding. I guess most of you may have some basic knowledge about statistics, but can't write a statistical program using C, JAVA, or Python. You do statistical analysis by simply clicking the buttons in SPSS or STATA. If SPSS doesn't provide a function you need, you have no idea.
+Two techniques are involved in computational methods: programming and data analysis. They are two different things, though highly correlated in computational studies. Programmers can develop fantastic applications, such as MS word and PPT. They possibly know nothing about data analysis. On the other side, data analysts may have little knowledge on coding. I guess most of you may have some basic knowledge of statistics but can't write a statistical program using C, JAVA, or Python. You do statistical analysis by simply clicking the buttons in SPSS or STATA. If SPSS doesn't provide a function you need, you have no idea.
 
 In this sense, Python is a good tool for programming, while R is good for data analysis. Data analysis doesn't merely refer to statistics. Machine learning and other data mining models could not be statistical (that means we don't infer parameters with distribution assumptions). 
 
 In section I, this tutorial will focus on programming. In section II, this tutorial will talk about data analysis.
 
-The first step to use R is to set the working directory. Your working directory is the folder on your computer
+The first step is to set the working directory. Your working directory is the folder on your computer
 in which you are currently working. When you ask R to open a file, it will look in the working directory for this file, and when you tell R to save a data file or figure, it will save it in the working directory.
 
 ```{r}
 # setwd("/R Review") # set a working directory
 ```
 R can do many statistical and data analyses. They are organized in so-called packages or libraries.
-With the standard installation, most common packages are installed.
+With the standard installation, the most common packages are installed.
 
 ```{r}
 #install.packages("tm")
@@ -30,14 +30,14 @@ With the standard installation, most common packages are installed.
 ```
 # Section I: Programming Basics
 ## 1.1. I/O
-How to import data from text, csv files into R?
+How to import data from text or csv files into R?
 ```{r}
 #data = read.table(file="authorlist.txt",stringsAsFactors=F)
 #data = read.csv(file="authorlist.csv",stringsAsFactors=F)
 #write.table(data,file="authorlist.txt")
 #write.csv(data,file="authorlist.csv")
 ```
-It's also possible to import data from SPSS or STATA files, even you haven't installed the software. We use the foreign library.
+It's also possible to import data from SPSS or STATA files, even if you haven't installed the software. We use the foreign library.
 
 ```{r}
 library(foreign)
@@ -61,7 +61,7 @@ sqrt(2) # squared root of 2
 We can define a variable and assign a value to it.
 
 ```{r}
-height = 180 # instead of using the equation symbol, it is equivalent to use the arrow symbol.
+height = 180 # instead of using the equation symbol, it is equivalent to using the arrow symbol.
 weight = 50
 print (height*weight)
 ```
@@ -71,7 +71,7 @@ nv = height*weight
 nv # instead of print(nv)
 ```
 
-R has some generic functions that we can use them directly. For example, calculating the sum and mean of a series of numbers.
+R has some generic functions that we can use directly. For example, calculating the sum and mean of a series of numbers.
 
 ```{r}
 sum(c(1,2,3))
@@ -90,7 +90,7 @@ There are 3 general modes of data in R: string/characters, numbers, and logical.
 string = "I am xxx"
 string
 
-# use class or typeof to determine the type of a variable
+# Use class or typeof to determine the type of a variable
 class(string)
 typeof(string)
 
@@ -98,7 +98,7 @@ number = 5
 number
 
 ```
-Another important data type is the logical type. There are two predefined variables:TRUE and FALSE
+Another important data type is the logical type. There are two predefined variables: TRUE and FALSE
 ```{r}
 logic = TRUE
 logic
@@ -107,7 +107,7 @@ missing
 ```
 
 ## 1.4. Data structures
-To learn any programming languages, a shortcut is to learn the core elements. Fortunately, most programming languages share very similar core elements. They are data structure, conditional expressions, loops, and functions. 
+To learn any programming language, a shortcut is to learn the core elements. Fortunately, most programming languages share very similar core elements. They are **data structure**, **conditional expressions**, **loops**, and **functions**. 
 
 Four types of data structure are commonly used in R: vector, matrix, data frame, and list. The first is vector. Vector is a list of values. These values could be numeric, logic, or string.
 ```{r}
@@ -115,7 +115,7 @@ Four types of data structure are commonly used in R: vector, matrix, data frame,
 v = c(1,7,9,10) 
 v
 ```
-The data type of vector values must be the same. If numbers,characters,and missing value are assigned together, what will happen? 
+The data type of vector values must be the same. If numbers, characters, and missing values are assigned together, what will happen? 
 ```{r}
 v2 = c(1,7,NA,"hi")
 v2
@@ -127,7 +127,7 @@ names(v)
 names(v) = c("First","Second","Third","Fourth")
 names(v)
 ```
-We can apply mathematical calculations directly to vector. We can multiply a vector by a number, calculate the sqrt of each elements in the vector.
+We can apply mathematical calculations directly to vector. We can multiply a vector by a number and calculate the sqrt of each element in the vector.
 
 ```{r}
 v*2
@@ -167,7 +167,7 @@ l[[3]]
 ```
 
 ## 1.5. Programming tools
-I will introduce 3 programming tools: if...else expression (which is one of the conditional expressions), for and while loop expressions, and user defined functions.
+I will introduce 3 programming tools: if...else expression (which is one of the conditional expressions), for and while loop expressions, and user-defined functions.
 
 Task: input a number, if the value is larger than or equal to 100, print "High Value", if the value is less than 100 and larger than or equal to 50, print "Middle Value", if less than 50, print "Low Value".
 
@@ -217,7 +217,7 @@ area = function(height=5,width=20){
 area(11,10)
 ```
 # Section II: Data Management and Analysis
-Section II focuses on data management and analysis. Our data are usually stored in data frames in R. Sometimes, we need to transform the original data into different format in order to use existing R functions for data analysis. Data management is the procedure to prepare our data for formal analyses.
+Section II focuses on data management and analysis. Our data are usually stored in data frames in R. Sometimes, we need to transform the original data into a different format in order to use existing R functions for data analysis. Data management is the procedure to prepare our data for formal analyses.
 
 ## 2.1. Data management
 I will use the attached sample data throughout the section. First, load the Rdata file.
@@ -225,7 +225,7 @@ I will use the attached sample data throughout the section. First, load the Rdat
 ```{r}
 load("sample.Rdata") # actually the data frame call tst3 (not sample)
 ```
-There are 6 variables and 1000 observations. This data were download from New York Times. id: the id of the article, section_name: the section of the article, publication date, abstract, the lead paragraph, and word count. The type of the original word count is character. Now, we need to create a new variable wc, which is the numeric type of word count.
+There are 6 variables and 1000 observations. This data was downloaded from the New York Times. id: the id of the article, section_name: the section of the article, publication date, abstract, the lead paragraph, and word count. The type of the original word count is character. Now, we need to create a new variable wc, which is the numeric type of word count.
 
 ```{r}
 tst3$wc = as.numeric(tst3$word_count)
@@ -286,7 +286,7 @@ colnames(agg_1)[2] = "avg"
 tst3 = merge(tst3,agg_1,by="section")
 head(tst3)
 ```
-Reshaping is a very powerful tool for data management. Check the tst3 data frame. We find that some articles belong to more than 1 sections. Suppose we want to know how many times any two sections co-occurred. e.g., Arts and Books co-occurred 5 times.
+Reshaping is a very powerful tool for data management. Check the tst3 data frame. We find that some articles belong to more than 1 section. Suppose we want to know how many times any two sections co-occurred. e.g., Arts and Books co-occurred 5 times.
 
 ```{r}
 # split the section variable by semicolon. "Arts;Books" will be split into two words: Arts and Books.
@@ -311,7 +311,7 @@ head(rev)
 ```
 
 ## 2.2. Descriptive statistics
-Now, introduce some basic statistical analysis using R. You should notice that most statistical functions are only applicable for data frames. The most simple one is to use summary() to show sumary statistics.
+Now, introduce some basic statistical analysis using R. You should notice that most statistical functions are only applicable to data frames. The most simple one is to use summary() to show summary statistics.
 ```{r}
 summary(tst3)
 ```
@@ -319,7 +319,7 @@ Another way is to use by and summary together to summarize different groups, e.g
 ```{r}
 by(tst3[,c("wc","avg")],tst3$long,summary)
 
-# create a cross table
+# create a cross-table
 table(tst3$section,tst3$long)
 
 # conduct chi-square test
